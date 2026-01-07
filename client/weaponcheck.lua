@@ -18,7 +18,7 @@ RegisterNetEvent('rsg-core:client:RemoveWeaponFromTab', function(weaponName)
     end
 end)
 
-CreateThread(function()   
+CreateThread(function()
     while true do
         Wait(1000)
         local player = PlayerPedId()
