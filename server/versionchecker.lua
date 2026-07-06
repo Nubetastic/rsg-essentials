@@ -1,5 +1,6 @@
--- Improved Version Checker for Rexshack-RedM Resources
 -----------------------------------------------------------------------
+-- Improved Version Checker for Rexshack-RedM Resources
+----------------------------------------------------------------------- 
 
 local resourceName = GetCurrentResourceName()
 local githubRawBase = 'https://raw.githubusercontent.com/Rexshack-RedM/rsg-versioncheckers/main/'
@@ -27,7 +28,6 @@ local function isVersionOutdated(current, latest)
         elseif l[i] < c[i] then return false
         end
     end
-
     return false -- equal
 end
 
