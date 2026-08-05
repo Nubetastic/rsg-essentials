@@ -140,3 +140,7 @@ Provided in `locales/`: `en`, `fr`, `es`, `pt-br`.
 - Map Zones data credit to **Viyu88** (see `client/zones.lua`).  
 - RSG / Rexshack-RedM and community contributors.  
 - License: **GPL‑3.0**.
+
+
+Modified from https://github.com/Rexshack-RedM/rsg-essentials, Aug 2025.
+See the Git history for changes. Distributed under GNU GPLv3.
